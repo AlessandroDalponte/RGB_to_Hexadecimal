@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RGB to Hexadecimal</title>
+    <link rel="stylesheet" href="RGB_to_Hex.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">RGB to Hexadecimal Converter</h1>
+    </header>
+    <p>Numbers should range from 0 to 255</p>
+    <!--This form with class="colorBoxes" contains the 3 boxes that receive the inputs from the user,
+    when he chooses which RGB color he wants to convert from decimal to hexadecimal-->
+    <form class="colorBoxes">
+      <div class="individualColorBox">
+        <h2 class="R">R</h2>
+        <input class="numberBox" type="number" min="0" max="255" value="255" />
+      </div>
+      <div class="individualColorBox">
+        <h2 class="G">G</h2>
+        <input class="numberBox" type="number" min="0" max="255" value="255" />
+      </div>
+      <div class="individualColorBox">
+        <h2 class="B">B</h2>
+        <input class="numberBox" type="number" min="0" max="255" value="255" />
+      </div>
+    </form>
+    <div class="buttonBox">
+      <button class="convertButton">CONVERT</button>
+    </div>
+    <div class="showColor"></div>
+    <form class="hexadecimal">
+      <h2 class="hexadecimalNumber">Hexadecimal: #FFFFFF</h2>
+    </form>
+    <script src="RGB_to_Hex.js"></script>
+  </body>
+</html>
