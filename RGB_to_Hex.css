@@ -60,23 +60,12 @@ h2 {
   color: rgb(0, 0, 255);
 }
 
-.buttonBox {
-  text-align: center;
-  margin: 2rem;
-}
-
-.convertButton {
-  font-size: 1.5rem;
-  background-color: white;
-  border-radius: 1rem;
-  padding: 1rem;
-}
-
 .showColor {
   background-color: #ffffff;
   width: 65rem;
   height: 5rem;
   margin: auto;
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 1rem;
   border-style: solid;
