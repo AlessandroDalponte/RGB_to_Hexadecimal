@@ -8,4 +8,4 @@ This software converts RGB Decimal color code to Hexadecimal color code;
 Version 1.1 Updates:
 
 - Now there is NO "Convert" button, the RGB Decimal color code is converted to Hexadecimal color code automalically;
-- The interface is also a little more cleaner;
+- The interface is also a little cleaner;
